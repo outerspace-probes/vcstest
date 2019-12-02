@@ -5,10 +5,26 @@
 [node name="Main" type="Node"]
 
 [node name="Player" type="Sprite" parent="."]
-position = Vector2( 531, 272 )
+position = Vector2( 302, 209 )
+texture = ExtResource( 1 )
+
+[node name="Player2" type="Sprite" parent="."]
+position = Vector2( 412, 208 )
+texture = ExtResource( 1 )
+
+[node name="Player3" type="Sprite" parent="."]
+position = Vector2( 514, 209 )
+texture = ExtResource( 1 )
+
+[node name="Player4" type="Sprite" parent="."]
+position = Vector2( 630, 205 )
+texture = ExtResource( 1 )
+
+[node name="Player5" type="Sprite" parent="."]
+position = Vector2( 745, 202 )
 texture = ExtResource( 1 )
 
 [node name="Polygon2D" type="Polygon2D" parent="."]
 position = Vector2( 520, 470 )
-color = Color( 0.368627, 0.105882, 0.435294, 1 )
+color = Color( 0.584314, 0.956863, 0.447059, 1 )
 polygon = PoolVector2Array( -50, 70, 50, 70, 10, 10, 0, -60, -10, 10 )
